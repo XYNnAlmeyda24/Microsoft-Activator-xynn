@@ -1,8 +1,8 @@
-$troubleshoot = 'https://massgrave.dev/troubleshoot'
+$troubleshoot = 'https://www.facebook.com/Xynn.xyz/'
 if ($ExecutionContext.SessionState.LanguageMode.value__ -ne 0) {
     $ExecutionContext.SessionState.LanguageMode
     Write-Host "Windows PowerShell is not running in Full Language Mode."
-    Write-Host "Help - https://gravesoft.dev/fix_powershell" -ForegroundColor White -BackgroundColor Blue
+    Write-Host "Help - https://www.facebook.com/Xynn.xyz/" -ForegroundColor White -BackgroundColor Blue
     return
 }
 
