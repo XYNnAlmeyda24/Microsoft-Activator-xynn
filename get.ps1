@@ -26,7 +26,7 @@ function CheckFile {
 
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $URLs = @(
-    'https://raw.githubusercontent.com/massgravel/Microsoft-Activation-Scripts/67abcd0c8925832fcf4365b9cf3706ab6fbf8571/MAS/All-In-One-Version-KL/MAS_AIO.cmd',
+    'https://raw.githubusercontent.com/XYNnAlmeyda24/powershell-scripts/refs/heads/main/MAS_AIO.cmd',
     'https://dev.azure.com/massgrave/Microsoft-Activation-Scripts/_apis/git/repositories/Microsoft-Activation-Scripts/items?path=/MAS/All-In-One-Version-KL/MAS_AIO.cmd&versionType=Commit&version=67abcd0c8925832fcf4365b9cf3706ab6fbf8571',
     'https://git.activated.win/massgrave/Microsoft-Activation-Scripts/raw/commit/67abcd0c8925832fcf4365b9cf3706ab6fbf8571/MAS/All-In-One-Version-KL/MAS_AIO.cmd'
 )
