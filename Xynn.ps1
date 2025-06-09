@@ -1,8 +1,15 @@
-$troubleshoot = 'https://www.facebook.com/Xynn.xyz'
+# Check massgrave.dev for more details
+
+write-host
+Write-Host "The current command (irm https://massgrave.dev/get | iex) will be retired in the future."
+Write-Host -ForegroundColor Green "Use the new command (irm https://get.activated.win | iex) moving forward."
+write-host
+
+$troubleshoot = 'https://massgrave.dev/troubleshoot'
 if ($ExecutionContext.SessionState.LanguageMode.value__ -ne 0) {
     $ExecutionContext.SessionState.LanguageMode
     Write-Host "Windows PowerShell is not running in Full Language Mode."
-    Write-Host "Help - https://www.facebook.com/Xynn.xyz" -ForegroundColor White -BackgroundColor Blue
+    Write-Host "Help - https://gravesoft.dev/fix_powershell" -ForegroundColor White -BackgroundColor Blue
     return
 }
 
@@ -26,7 +33,7 @@ function CheckFile {
 
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $URLs = @(
-    'https://raw.githubusercontent.com/XYNnAlmeyda24/powershell-scripts/refs/heads/main/MAS_AIO.cmd',
+    'https://raw.githubusercontent.com/massgravel/Microsoft-Activation-Scripts/67abcd0c8925832fcf4365b9cf3706ab6fbf8571/MAS/All-In-One-Version-KL/MAS_AIO.cmd',
     'https://dev.azure.com/massgrave/Microsoft-Activation-Scripts/_apis/git/repositories/Microsoft-Activation-Scripts/items?path=/MAS/All-In-One-Version-KL/MAS_AIO.cmd&versionType=Commit&version=67abcd0c8925832fcf4365b9cf3706ab6fbf8571',
     'https://git.activated.win/massgrave/Microsoft-Activation-Scripts/raw/commit/67abcd0c8925832fcf4365b9cf3706ab6fbf8571/MAS/All-In-One-Version-KL/MAS_AIO.cmd'
 )
